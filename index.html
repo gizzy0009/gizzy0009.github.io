@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — ชื่อของคุณ</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Cursor Glow Effect -->
+  <div class="cursor-glow" id="cursorGlow"></div>
+
+  <!-- =====================
+       HERO
+  ===================== -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-bg2"></div>
+    <div class="hero-content">
+      <div class="hero-tag">🌸 Portfolio </div>
+      <h1>
+        Portfolio <br>
+        <span class="name-pink">นายธนวินท์ บุราคร</span>
+      </h1>
+      <p class="role">นักศึกษา / ผู้สมัครสาขาวิทศวะกรรมคอมพิวเตอร์</p>
+      <p class="desc">
+        มีความหลงใหลในด้านเทคโนโลยีและการพัฒนาซอฟต์แวร์
+        พร้อมเรียนรู้สิ่งใหม่อยู่เสมอ และตั้งใจนำความรู้ไปต่อยอดสร้างสรรค์ผลงานที่เป็นประโยชน์ในอนาคต
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn-primary">ดูผลงาน📁</a>
+        <a href="#contact" class="btn-outline">ติดต่อฉัน🔔</a>
+      </div>
+    </div>
+      <div class="hero-avatar"><image src="/image/ep1.png" alt="hero-avatar"></div>
+  </section>
+
+  <!-- =====================
+       ABOUT
+  ===================== -->
+  <section id="about">
+    <div class="section-label reveal">ประวัติ ส่วนตัว</div>
+    <div class="section-title reveal reveal-delay-1">เกี่ยวกับฉัน</div>
+    <div class="divider reveal reveal-delay-2"></div>
+    <div class="about-grid">
+      <div class="reveal reveal-delay-2">
+        <div class="me-avatar"><image src="/image/esr.png" alt="hero-avatar"></div>
+      </div>
+      <div class="info-row">
+        <div class="info-item reveal reveal-delay-2">
+          <div class="info-dot"></div>
+          <div>
+            <div class="info-label">ชื่อ - นามสกุล</div>
+            <div class="info-value">นายธนวินท์ บุราคร</div>
+          </div>
+        </div>
+        <div class="info-item reveal reveal-delay-3">
+          <div class="info-dot"></div>
+          <div>
+            <div class="info-label">โรงเรียน</div>
+            <div class="info-value">โรงเรียนเทพศิรินท์นนทบุรี</div>
+          </div>
+        </div>
+        <div class="info-item reveal reveal-delay-4">
+          <div class="info-dot"></div>
+          <div>
+            <div class="info-label">สาขาที่สมัคร</div>
+            <div class="info-value">วิทยาการคอมพิวเตอร์ / วิศวะกรรมคอมพิวเตอร์</div>
+          </div>
+        </div>
+        <div class="info-item reveal reveal-delay-5">
+          <div class="info-dot"></div>
+          <div>
+            <div class="info-label">ความสนใจ</div>
+            <div class="info-value">การพัฒนาแอปพลิเคชัน, AI, Data Science, AI Engineering</div>
+          </div>
+        </div>
+        <div class="info-item reveal reveal-delay-6">
+          <div class="info-dot"></div>
+          <div>
+            <div class="info-label">เป้าหมาย</div>
+            <div class="info-value">
+              ต้องการพัฒนาทักษะด้าน IT เพื่อนำไปสร้างนวัตกรรมที่เป็นประโยชน์
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =====================
+       PROJECTS
+  ===================== -->
+  <section id="projects">
+    <div class="section-label reveal">Projects</div>
+    <div class="section-title reveal reveal-delay-1">ผลงาน</div>
+    <div class="divider reveal reveal-delay-2"></div>
+    <div class="projects-grid">
+
+      <div class="project-card reveal reveal-delay-2" data-project="0">
+        <img class="project-thumb" src="image/e1.png">
+        <div class="project-body">
+          <span class="project-tag">Python</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 1</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์สั้น ๆ เช่น แอปพลิเคชันช่วยจัดการตารางเรียน สร้างด้วย Python และ Tkinter
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-3" data-project="1">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">Web</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 2</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น เว็บไซต์แนะนำสถานที่ท่องเที่ยว พัฒนาด้วย HTML, CSS, JavaScript
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-4" data-project="2">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">Data</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 3</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์วิเคราะห์ข้อมูลสำหรับวิชาวิทยาศาสตร์ ด้วย Google Sheets &amp; Python
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-5" data-project="3">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">Cloud</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 4</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์ Cloud Computing ด้วย AWS
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-6" data-project="4">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">VR</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 5</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น แอป VR ด้วย Unity
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-7" data-project="5">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">Big Data</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 6</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์วิเคราะห์ Big Data ด้วย Hadoop
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-8" data-project="6">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">Machine Learning</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 7</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์พัฒนาโมเดล Machine Learning ด้วย Scikit-learn
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-9" data-project="7">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">DevOps</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 8</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์ CI/CD Pipeline ด้วย Jenkins
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+      <div class="project-card reveal reveal-delay-10" data-project="8">
+        <img class="project-thumb" src="image/e1.png" >
+        <div class="project-body">
+          <span class="project-tag">NLP</span>
+          <div class="project-title">ชื่อโปรเจกต์ที่ 9</div>
+          <div class="project-desc">
+            คำอธิบายโปรเจกต์ เช่น โปรเจกต์ NLP สำหรับการประมวลผลข้อความ ด้วย NLTK
+          </div>
+          <div class="project-click-hint">คลิกเพื่อดูรายละเอียด ✦</div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- =====================
+       PROJECT MODAL
+  ===================== -->
+  <div class="modal-overlay" id="modalOverlay">
+    <div class="modal-box" id="modalBox">
+      <button class="modal-close" id="modalClose">✕</button>
+      <div class="modal-images" id="modalImages"></div>
+      <div class="modal-content">
+        <div class="modal-tag" id="modalTag"></div>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-meta" id="modalMeta"></div>
+        <div class="modal-tools" id="modalTools"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================
+       FOOTER / CONTACT
+  ===================== -->
+  <footer id="contact">
+    <div class="footer-name">ชื่อ นามสกุล</div>
+    <p>นักศึกษาสาขาวิทย์ / IT | พร้อมเรียนรู้และพัฒนา</p>
+    <div class="contact-links">
+      <a href="https://mail.google.com/mail/u/0/#sent?compose=CllgCHrgmLHMTbmSWbbhxZcKLQPsgGgvCQXvLBVNplWCZVnJdVPSLjRXdfxHwQdXhSXbkfmMSRL">📧 tanawinburakorn94@gmail.com</a>
+      <a href="https://github.com/dekswxg">🐙 GitHub</a>
+    </div>
+  </footer>
+
+  <!-- =====================
+       JAVASCRIPT
+  ===================== -->
+  <script>
+    // =====================
+    // Cursor glow
+    // =====================
+    const glow = document.getElementById('cursorGlow');
+    document.addEventListener('mousemove', e => {
+      glow.style.left = e.clientX + 'px';
+      glow.style.top  = e.clientY + 'px';
+    });
+
+    // =====================
+    // Scroll reveal + skill bars
+    // =====================
+    const reveals = document.querySelectorAll('.reveal');
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+          const fill = entry.target.querySelector('.skill-level-fill');
+          if (fill) {
+            const pct = entry.target.dataset.pct;
+            setTimeout(() => { fill.style.width = pct + '%'; }, 200);
+          }
+        }
+      });
+    }, { threshold: 0.15 });
+    reveals.forEach(el => observer.observe(el));
+
+    // =====================
+    // Project data — แก้ข้อมูล
+    // =====================
+    const projects = [
+      {
+        tag: 'Python',
+        emoji: '🌱',
+        title: 'ชื่อโปรเจกต์ที่ 1',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 1 เช่น แอปพลิเคชันช่วยจัดการตารางเรียน โดยผู้ใช้สามารถเพิ่ม แก้ไข และลบวิชาได้ พร้อมแจ้งเตือนก่อนเวลาเรียน สร้างด้วย Python และ Tkinter',
+        tools: ['Python', 'Tkinter', 'SQLite'],
+        role: 'ผู้พัฒนาหลัก',
+        duration: '2 เดือน',
+        // ใส่ path รูปภาพจริงได้ที่นี่ เช่น 'images/project1-1.jpg'
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'Web',
+        emoji: '📱',
+        title: 'ชื่อโปรเจกต์ที่ 2',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 2 เช่น เว็บไซต์แนะนำสถานที่ท่องเที่ยวในจังหวัดต่าง ๆ ของไทย มีฟีเจอร์ค้นหาและกรองตามหมวดหมู่ พัฒนาด้วย HTML, CSS และ JavaScript ล้วน ๆ',
+        tools: ['HTML', 'CSS', 'JavaScript'],
+        role: 'Frontend Developer',
+        duration: '3 สัปดาห์',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'Data',
+        emoji: '📊',
+        title: 'ชื่อโปรเจกต์ที่ 3',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 3 เช่น โปรเจกต์วิเคราะห์ข้อมูลผลการเรียนนักเรียน วิเคราะห์แนวโน้มและสร้างกราฟสรุปผล ใช้ Python ร่วมกับ Google Sheets API',
+        tools: ['Python', 'Pandas', 'Google Sheets API', 'Matplotlib'],
+        role: 'Data Analyst',
+        duration: '1 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'Cloud',
+        emoji: '☁️',
+        title: 'ชื่อโปรเจกต์ที่ 4',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 4 เช่น โปรเจกต์ Cloud Computing สำหรับการจัดการข้อมูล ด้วย AWS และ Docker',
+        tools: ['AWS', 'Docker', 'Python'],
+        role: 'Cloud Engineer',
+        duration: '3 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'VR',
+        emoji: '🥽',
+        title: 'ชื่อโปรเจกต์ที่ 5',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 5 เช่น แอปพลิเคชัน VR สำหรับการเรียนรู้ ด้วย Unity และ Oculus',
+        tools: ['Unity', 'C#', 'Oculus SDK'],
+        role: 'VR Developer',
+        duration: '6 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'Big Data',
+        emoji: '📊',
+        title: 'ชื่อโปรเจกต์ที่ 6',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 6 เช่น โปรเจกต์วิเคราะห์ Big Data สำหรับการทำนาย ด้วย Hadoop และ Spark',
+        tools: ['Hadoop', 'Spark', 'Python'],
+        role: 'Data Engineer',
+        duration: '4 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'Machine Learning',
+        emoji: '🤖',
+        title: 'ชื่อโปรเจกต์ที่ 7',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 7 เช่น โปรเจกต์พัฒนาโมเดล Machine Learning สำหรับการทำนายราคาบ้าน ด้วย Scikit-learn และ Pandas',
+        tools: ['Python', 'Scikit-learn', 'Pandas', 'Matplotlib'],
+        role: 'ML Engineer',
+        duration: '3 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'DevOps',
+        emoji: '⚙️',
+        title: 'ชื่อโปรเจกต์ที่ 8',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 8 เช่น โปรเจกต์สร้าง CI/CD Pipeline สำหรับ Automation ด้วย Jenkins และ GitLab',
+        tools: ['Jenkins', 'GitLab', 'Docker', 'Kubernetes'],
+        role: 'DevOps Engineer',
+        duration: '2 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+      {
+        tag: 'NLP',
+        emoji: '📚',
+        title: 'ชื่อโปรเจกต์ที่ 9',
+        desc: 'คำอธิบายละเอียดโปรเจกต์ที่ 9 เช่น โปรเจกต์ NLP สำหรับการจำแนกข้อความ ด้วย NLTK และ TensorFlow',
+        tools: ['Python', 'NLTK', 'TensorFlow', 'Keras'],
+        role: 'NLP Developer',
+        duration: '5 เดือน',
+        images: ['image/test.png', 'image/test.png', 'image/test.png'],
+      },
+];
+
+    // =====================
+    // Modal logic
+    // =====================
+    const overlay   = document.getElementById('modalOverlay');
+    const modalBox  = document.getElementById('modalBox');
+    const closeBtn  = document.getElementById('modalClose');
+
+    function openModal(idx) {
+      const p = projects[idx];
+
+      // images — ถ้าเป็น path รูปจริงใช้ <img> แทน emoji
+      document.getElementById('modalImages').innerHTML = p.images.map(img =>
+        img.startsWith('http') || img.endsWith('.jpg') || img.endsWith('.png')
+          ? `<img src="${img}" alt="project image" class="modal-img">`
+          : `<div class="modal-img-placeholder">${img}</div>`
+      ).join('');
+
+      document.getElementById('modalTag').textContent   = p.tag;
+      document.getElementById('modalTitle').textContent = p.title;
+      document.getElementById('modalDesc').textContent  = p.desc;
+      document.getElementById('modalMeta').innerHTML    =
+        `<span>👤 บทบาท: <strong>${p.role}</strong></span>
+         <span>⏱ ระยะเวลา: <strong>${p.duration}</strong></span>`;
+      document.getElementById('modalTools').innerHTML   =
+        p.tools.map(t => `<span class="tool-pill">${t}</span>`).join('');
+
+      overlay.classList.add('active');
+      document.body.style.overflow = 'hidden';
+      // trigger animation
+      requestAnimationFrame(() => modalBox.classList.add('open'));
+    }
+
+    function closeModal() {
+      modalBox.classList.remove('open');
+      setTimeout(() => {
+        overlay.classList.remove('active');
+        document.body.style.overflow = '';
+      }, 320);
+    }
+
+    document.querySelectorAll('.project-card[data-project]').forEach(card => {
+      card.addEventListener('click', () => openModal(+card.dataset.project));
+    });
+
+    closeBtn.addEventListener('click', closeModal);
+    overlay.addEventListener('click', e => { if (e.target === overlay) closeModal(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+  </script>
+
+</body>
+</html>
+
+
